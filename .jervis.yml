@@ -1,0 +1,18 @@
+language: shell
+
+env:
+  - TEST="sat"
+script:
+  - echo "Hello World."
+
+branches:
+  only:
+    - master
+    - release/1.0.1
+
+jenkins:
+  pipeline_jenkinsfile: Jenkinsfile
+  collect:
+    collect:
+      artifacts: build/libs/*.jar
+      junit: build/test-results/*.xml
