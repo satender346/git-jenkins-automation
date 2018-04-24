@@ -10,7 +10,7 @@ branches:
     - master
 
 jenkins:
-  pipeline_jenkinsfile: Jenkinsfile
+  pipeline_jenkinsfile: test/Jenkinsfile
   collect:
     collect:
       artifacts: build/libs/*.jar
