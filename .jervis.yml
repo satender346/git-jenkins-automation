@@ -8,7 +8,6 @@ script:
 branches:
   only:
     - master
-    - release/1.0.1
 
 jenkins:
   pipeline_jenkinsfile: Jenkinsfile
