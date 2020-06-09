@@ -1,1 +1,1 @@
-# sat_testing
+# Automatic Jenkins build trigger on git commit
